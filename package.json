@@ -1,13 +1,1 @@
-{
-  "name": "autogpt-moltbot",
-  "version": "1.0.0",
-  "description": "AutoGPT Moltbot Sandbox",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "dependencies": {
-    "express": "^4.18.2",
-    "cors": "^2.8.5"
-  }
-}
+{\n  "name": "autogpt-moltbot",\n  "version": "1.0.0",\n  "description": "AutoGPT Moltbot Sandbox - AI Agent Platform",\n  "main": "server.js",\n  "scripts": {\n    "start": "node server.js"\n  },\n  "dependencies": {\n    "express": "^4.18.2",\n    "cors": "^2.8.5",\n    "dotenv": "^16.3.1",\n    "axios": "^1.6.2",\n    "@anthropic-ai/sdk": "^0.16.0",\n    "openai": "^4.24.0",\n    "uuid": "^9.0.0"\n  }\n}
